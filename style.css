@@ -1,0 +1,338 @@
+body {
+   padding: 0;
+   margin: 0;
+   background-color: black;
+   color: white;
+}
+header {
+   margin: 30px 12px 0 12px;
+   border-radius: 10px;
+   background-color: #515855;
+   height: 70px;
+   width: 93%;
+   position: fixed;
+}
+ 
+header div img {
+   padding: 0;
+   margin: -10px 0 0 0;
+   width: 60px ;
+   height: 102px;
+}
+header div label {
+   display: flex;
+   margin: -84px 0 0 57px ;
+   font-size: 19px;
+   color: black;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: 600;
+}
+header div i {
+   font-size: 30px;
+   display: flex;
+   margin: -39px 30px 0px 310px;
+   color: black;
+   cursor: pointer;
+}
+header nav {
+   display: block;
+}
+header nav .navigation {
+   list-style-type: none;
+   margin: 0;
+   padding: 10px 0 0 0 ;
+   top: -950%;
+position: absolute;
+background-color: #000;
+   height: 750%;
+   width: 100%;
+   border-bottom: 2px solid #515855;
+   transition: all .55s ease-in;
+}
+header .navigation.open {
+   top: 120%;
+}
+header nav li {
+   display: flex;
+   justify-content: center;
+   margin: 70px 0 0 0px;
+   font-size: 30px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header nav a {
+   color: #515855;
+text-decoration: none;
+}
+@media only screen and (max-width:360px) {
+   header nav .navigation {
+   padding: 0px 0 0 0 ;
+   height: 950%;
+}
+header nav li {
+   margin: 90px 0 0 0px;
+   font-size: 30px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+   header div i {
+      margin: -39px 30px 0 290px;
+      transition: .20s ease;
+   }
+}
+@media only screen and (min-width:400px) {
+   header div i {
+      margin: -39px 30px 0 320px;
+      transition: .20s ease;
+   }
+   header nav .navigation {
+      height: 850%;
+   }
+   header nav li {
+      margin: 90px 0 0 0px;
+      font-size: 30px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+}
+@media only screen and (min-width:414px) {
+   header div i {
+      margin: -39px 30px 0 330px;
+      transition: .20s ease;
+   }
+}
+@media only screen and (min-width:427px) {  
+    header {
+   margin: 30px 12px 0 17px;
+}
+   header div i {
+      margin: -39px 30px 0 350px;
+      transition: .20s ease;
+   }
+}
+@media only screen and (min-width:500px) {
+   header {
+   margin: 30px 12px 0 17px;
+}
+   header div i {
+      margin: -39px 30px 0 410px;
+      transition: .20s ease;
+   }
+}
+@media only screen and (min-width:550px) {  
+
+header div img {
+   margin: -15px 0 0 0;
+   width: 80px ;
+   transition: .40s ease;
+   height: 130px;
+} 
+   header {
+   margin: 30px 12px 0 18px;
+   height: 80px;
+   transition: .40s ease;
+}
+header div label {
+   margin: -105px 0 0 75px ;
+   font-size: 23px;
+   transition: .40s ease;
+}
+   header div i {
+      font-size: 40px;
+      transition: .20s ease;
+      margin: -50px 30px 0 490px;
+   }
+}
+@media only screen and (min-width:600px) {
+   header {
+      margin: 30px 12px 0 20px;
+      height: 80px;
+      transition: .40s ease;
+   }
+   header div i {
+      transition: .20s ease;
+      margin: -50px 30px 0 500px;
+   }
+}
+@media only screen and (min-width:650px) {
+   header div i {
+      transition: .30s ease;
+      margin: -50px 30px 0 550px;
+   }
+}
+@media only screen and (min-width:700px) {
+   header {
+      margin: 30px 12px 0 25px;
+      transition: .40s ease;
+   }
+   header div i {
+      transition: .30s ease;
+      margin: -50px 30px 0 590px;
+   }
+}
+@media only screen and (min-width:750px) {
+   header {
+      margin: 30px 12px 0 26px;
+      transition: .40s ease;
+   }
+   header div i {
+      transition: .30s ease;
+      margin: -50px 30px 0 630px;
+   }
+ 
+}
+@media only screen and (min-width:800px) {
+   header {
+      margin: 30px 12px 0 27px;
+      transition: .40s ease;
+   }
+   header div i {
+      transition: .30s ease;
+      margin: -50px 30px 0 680px;
+   }
+}
+@media only screen and (min-width:850px) {
+   header {
+      margin: 30px 12px 0 29px;
+      transition: .40s ease;
+   }
+   header div i {
+      transition: .30s ease;
+      margin: -50px 30px 0 720px;
+   }
+}
+@media only screen and (min-width:900px) {
+   header {
+      margin: 30px 12px 0 31px;
+      transition: .40s ease;
+   }
+   header div i {
+      transition: .30s ease;
+      margin: -50px 30px 0 780px;
+   }
+}
+@media only screen and (min-width:950px) {
+   header {
+      margin: 30px 12px 0 31px;
+      transition: .40s ease;
+   }
+   header div i {
+      transition: .30s ease;
+      margin: -50px 30px 0 820px;
+   }
+}
+@media only screen and (min-width:1000px) {
+   header {
+      margin: 30px 12px 0 33px;
+      transition: .40s ease;
+   }
+   header div i {
+      transition: .30s ease;
+      margin: -50px 30px 0 860px;
+   }
+}
+@media only screen and (min-width:1050px) {
+   header {
+      margin: 30px 12px 0 33px;
+      transition: .40s ease;
+   }
+   header div i {
+      transition: .30s ease;
+      margin: -50px 30px 0 910px;
+   }
+}
+@media only screen and (min-width:1150px) {
+   header {
+      margin: 30px 12px 0 40px;
+      transition: .40s ease;
+   }
+   header div i {
+      transition: .30s ease;
+      margin: -50px 30px 0 1000px;
+   }
+}
+@media only screen and (min-width:1200px) {
+   header {
+      margin: 30px 12px 0 43px;
+      transition: .40s ease;
+   }
+   header div i {
+      transition: .30s ease;
+      margin: -50px 30px 0 1050px;
+   }
+}
+@media only screen and (min-width:1278px) {
+   header {
+      margin: 0px 12px 0 32px;
+      border-radius: 0 0 10px 10px;
+      transition: .40s ease;
+      height: 100px;
+      position: relative;
+   width: 95%;
+   }
+   header div img {
+      padding: 0;
+      margin: -26px 0 0 0;
+      width: 100px ;
+      height: 172px;
+   }
+   header div i {
+      transition: .30s ease;
+      margin: -50px 30px 0 1050px;
+      display: none;
+   }
+   header div label {
+      display: flex;
+      margin: -133px 0 0 97px ;
+      font-size: 27px;
+   }
+   header nav {
+      display: flex;
+   }
+   header nav .navigation {
+      background-color: transparent;
+      display: flex;
+      list-style-type: none;
+      justify-content: end;
+      margin: -65px 30px 0 0px;
+      padding: 10px 0 0 0 ;
+      top: 0%;
+   position: relative;
+      height: 750%;
+      width: 100%;
+      border-bottom: none;
+      transition: all .55s ease-in;
+   }
+   header nav li {
+      display: flex;
+      justify-content: center;
+      margin: 0px 0 0 30px;
+      font-size: 25px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   #on {
+      background-color: #000;
+      color: #515855;
+      border-radius: 10px;
+   }
+   header nav a {
+      padding: 7px;
+      color: #000;
+   text-decoration: none;
+   }
+   header nav li:hover {
+      border: 2px solid black;
+      border-radius: 10px;
+   }
+}
+@media only screen and (min-width:1408px) {
+   header {
+      margin: 0px 12px 0 42px;
+      border-radius: 0 0 10px 10px;
+      transition: .40s ease;
+      height: 100px;
+      position: relative;
+   width: 95%;
+   }
+ 
+}
+
+
+
